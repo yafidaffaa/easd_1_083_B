@@ -33,4 +33,17 @@ void merge(int yafi[], int low, int mid, int high) {
 	int YA = 0;
 	int k = low;
 
+	while (i < n1 && YA < n2) {
+		if (L[i] <= R[YA]) {
+			yafi[k] = L[i];
+			i++;
+		}
+		else {
+			yafi[k] = R[YA];
+			YA++;
+		}
+		k++;
+	}
+
+
 }
