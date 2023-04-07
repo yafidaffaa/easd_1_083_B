@@ -11,3 +11,10 @@
 /*5.	Algoritma Bubble Sort, Selection Sort, Insertion Sort, dan Shell Sort memiliki kompleksitas waktu O(n^2), yang termasuk dalam kategori algoritma quadratic. 
 		Sedangkan Merge Sort dan Quick Sort memiliki kompleksitas waktu O(n log n), yang termasuk dalam kategori algoritma loglinear.*/
 //Berikut adalah program merge sort
+
+#include <iostream>
+using namespace std;
+
+void merge(int yafi[], int low, int mid, int high) {
+
+}
