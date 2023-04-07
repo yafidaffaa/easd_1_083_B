@@ -28,4 +28,9 @@ void merge(int yafi[], int low, int mid, int high) {
 	for (int YA = 0; YA < n2; YA++) {
 		R[YA] = yafi[mid + 1 + YA];
 	}
+
+	int i = 0;
+	int YA = 0;
+	int k = low;
+
 }
