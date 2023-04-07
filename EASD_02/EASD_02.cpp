@@ -21,4 +21,11 @@ void merge(int yafi[], int low, int mid, int high) {
 
 	int* L = new int[n1];
 	int* R = new int[n2];
+
+	for (int i = 0; i < n1; i++) {
+		L[i] = yafi[low + i];
+	}
+	for (int YA = 0; YA < n2; YA++) {
+		R[YA] = yafi[mid + 1 + YA];
+	}
 }
