@@ -67,3 +67,7 @@ void mergeSort(int yafi[], int low, int high) {
 		merge(yafi, low, mid, high);
 	}
 }
+
+void input(int yafi[], int n) {
+	
+}
