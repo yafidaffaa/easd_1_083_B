@@ -77,3 +77,7 @@ void input(int yafi[], int n) {
 		cin >> yafi[i];
 	}
 }
+
+void display(int yafi[], int size) {
+	
+}
