@@ -16,5 +16,9 @@
 using namespace std;
 
 void merge(int yafi[], int low, int mid, int high) {
+	int n1 = mid - low + 1;
+	int n2 = high - mid;
 
+	int* L = new int[n1];
+	int* R = new int[n2];
 }
