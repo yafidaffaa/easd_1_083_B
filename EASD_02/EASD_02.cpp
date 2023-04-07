@@ -69,5 +69,11 @@ void mergeSort(int yafi[], int low, int high) {
 }
 
 void input(int yafi[], int n) {
-	
+	cout << "Masukkan jumlah elemen array maksimum 103: ";
+	cin >> n;
+
+	cout << "Masukkan elemen array:\n";
+	for (int i = 0; i < n; i++) {
+		cin >> yafi[i];
+	}
 }
