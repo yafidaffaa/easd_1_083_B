@@ -87,7 +87,7 @@ void display(int yafi[], int size) {
 
 int main() {
 	int yafi[103];
-	int n;
+	int n = 0;
 
 	input(yafi, n);
 
