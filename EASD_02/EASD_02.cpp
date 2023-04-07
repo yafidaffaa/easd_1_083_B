@@ -95,4 +95,9 @@ int main() {
 	display(yafi, n);
 
 	mergeSort(yafi, 0, n - 1);
+
+	cout << "Array setelah diurutkan: ";
+	display(yafi, n);
+
+	return 0;
 }
