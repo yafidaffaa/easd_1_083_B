@@ -84,3 +84,7 @@ void display(int yafi[], int size) {
 	cout << yafi[size - 1];
 	cout << endl;
 }
+
+int main() {
+	
+}
