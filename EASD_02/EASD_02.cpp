@@ -58,5 +58,12 @@ void merge(int yafi[], int low, int mid, int high) {
 }
 
 void mergeSort(int yafi[], int low, int high) {
-	
+	if (low < high) {
+		int mid = low + (high - low) / 2;
+
+		mergeSort(yafi, low, mid);
+		mergeSort(yafi, mid + 1, high);
+
+		
+	}
 }
