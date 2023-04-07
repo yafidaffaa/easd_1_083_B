@@ -93,4 +93,6 @@ int main() {
 
 	cout << "Array sebelum diurutkan: ";
 	display(yafi, n);
+
+	mergeSort(yafi, 0, n - 1);
 }
