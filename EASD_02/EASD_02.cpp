@@ -90,4 +90,7 @@ int main() {
 	int n;
 
 	input(yafi, n);
+
+	cout << "Array sebelum diurutkan: ";
+	display(yafi, n);
 }
