@@ -79,5 +79,8 @@ void input(int yafi[], int n) {
 }
 
 void display(int yafi[], int size) {
-	
+	for (int i = 0; i < size - 1; i++)
+		cout << yafi[i] << " ";
+	cout << yafi[size - 1];
+	cout << endl;
 }
